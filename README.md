@@ -11,3 +11,8 @@ cut -f3,5 -d'      ' filename.tsv
 ```
 tail -n +2 filename.txt
 ```
+
+* *Oneliner add a prefix to the names of all files inside a folder*
+```
+for file in *; do mv "$file" "arxsum-$file"; done 
+```
