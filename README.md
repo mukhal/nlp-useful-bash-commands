@@ -1,5 +1,5 @@
 # :candy: Useful Bash Commands for NLP
-A collection of useful bash commands for data manipulation in MLP
+A collection of useful bash commands for data manipulation in NLP/ML
 
 
 * *split tsv file, and extract 3rd and 5th columns*
