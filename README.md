@@ -3,7 +3,7 @@
 
 
 ### miscellaneous
-```
+```bash
 # split tsv file, and extract 3rd and 5th columns
 cut -f3,5 -d'      ' filename.tsv
 
@@ -12,6 +12,9 @@ for file in *; do mv "$file" "prefix-$file"; done
 
 # Remove first line from file
 tail -n +2 filename.txt
+
+# print specific line in a file
+sed -n -e 6p filename.txt
 ```
 
 
