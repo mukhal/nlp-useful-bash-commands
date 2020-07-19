@@ -1,5 +1,5 @@
 # :candy: useful bash commands for Natural Language Processing :candy:
-A collection of useful bash commands that I use a lot for data manipulation, wrangling, and preprocessing in NLP
+*A collection of useful bash commands that I use a lot for data manipulation, wrangling, and preprocessing in NLP*
 
 
 * *split tsv file, and extract 3rd and 5th columns*
