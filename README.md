@@ -23,4 +23,9 @@ sed -n -e 6p filename.txt
 ```
 # Match and replace the string matched with the regex inside the second parentheses () with empty string.
 cat file | sed -E 's/.* ([0-9]) (.*) /\2/'
+
+
+# remove lines contatining a specific patter
+sed '/pattern/d' in.file > out.file
 ```
+
