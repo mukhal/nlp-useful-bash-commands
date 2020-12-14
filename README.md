@@ -15,6 +15,11 @@ tail -n +2 filename.txt
 
 # print specific line in a file
 sed -n -e 6p filename.txt
+
+# Shuffle two files together (useful for x, y training files)
+
+$ paste -d ':' file1 file2 | shuf | awk -v FS=":" '{ print $1 > "out1" ; print $2 > "out2" }'
+
 ```
 
 
